@@ -1,0 +1,174 @@
+html{
+    font-family: font-family 'Montserrat', sans-serif;
+    
+}
+
+body{
+    margin: 0;
+    background-color: #d4d4d4;
+    
+
+}
+
+header{
+    
+    background-color: #364552;
+    color: white;
+    padding: 10rem 2rem;
+    box-shadow: 0 0.5rem 0.8rem rgba(0,0,0,0.3);
+    letter-spacing: 5px;
+    font-size: 1.3rem;
+    text-align: center;
+
+}
+h1{
+    letter-spacing: 20px;
+}
+
+
+nav{
+
+    margin: 0;
+    padding: 0.5rem 1rem;
+    list-style: none;
+    
+
+}
+nav a{
+    background: #4a4a4a;
+    padding: 0.5rem 1rem;
+    transition: all 0.4;
+
+}
+
+
+
+header div{
+    color: lavenderblush;
+    padding: 10rem 2rem
+}
+header a{
+    transition: box-shadow 0.3s ease;
+}
+div{
+    padding: 2rem 3rem;
+    
+}
+div a {
+    color: aquamarine;
+    text-decoration: none;
+    justify-content: space-between;
+    box-shadow: 0 0.1rem 1rem rgba(0, 0, 0, 0.3);
+    
+    
+}
+a.nos{
+    transition: box-shadow 0.3s ease;
+    color: rgba(0, 0, 0, 0.808);
+    font-size: xx-large;
+    text-align: center;
+    cursor: pointer;
+    
+    
+}
+
+
+header h1{
+    font-size: 4rem;
+    text-align: center;
+
+
+}
+.container {
+    width: 400px;
+    margin: 0 auto;
+}
+
+   
+
+    
+section article {
+    transition: all 0.3s ease;
+    background-color:  #fff;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    padding: 0.25rem 0;
+    cursor: pointer
+    
+}
+section article:hover{
+    box-shadow: 0 0.4rem 0.8rem rgba(0,0,0,0.3);
+
+}
+section article h2, section article p{
+    margin: 1rem;
+}
+footer {
+    background-color: #222;
+    padding: 3rem;
+    color: #fff
+
+
+}
+footer section{
+    float: right;
+
+}
+footer p{
+    margin: 0;
+
+}
+footer a{
+    transition: color 0.3s ease;
+    color:white;
+    text-decoration: none;
+
+}
+footer a:hover{
+    color: cornflowerblue;
+
+}
+footer p{
+    -ms-flex-align: center;
+
+}
+
+.redes-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.redes-container ul li{
+    display: inline-block;
+    margin: 0 5px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+.redes-container ul li a{
+    display: block;
+    padding: 0 10px;
+    background: #333;
+    color: #fff;
+    line-height: 50px;
+    font-size: 18px;
+    box-shadow: 0 3px 5px 0px rgba(0,0,0, .2);
+    transition: .2s
+    ;
+    
+}
+.redes-container ul:hover a{
+    filter:blur(2px)
+}
+.redes-container ul li a:hover{
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 5px 5px 0px rgba(0,0,0, .4);
+    filter: none;
+
+}
+
+/**/
+
+
+
+
