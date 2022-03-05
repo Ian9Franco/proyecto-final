@@ -3,85 +3,43 @@ html{
     
 }
 
-body{
+.body{
     margin: 0;
     background-color: #d4d4d4;
     
 
 }
 
-header{
+.header{
     
     background-color: #364552;
     color: white;
-    padding: 10rem 2rem;
+    padding: 2rem 1rem;
     box-shadow: 0 0.5rem 0.8rem rgba(0,0,0,0.3);
     letter-spacing: 5px;
-    font-size: 1.3rem;
+    font-size: 5.3rem;
     text-align: center;
 
 }
-h1{
+
+.header h1{
     letter-spacing: 20px;
 }
 
-
-nav{
-
-    margin: 0;
-    padding: 0.5rem 1rem;
-    list-style: none;
-    
-
-}
-nav a{
-    background: #4a4a4a;
-    padding: 0.5rem 1rem;
-    transition: all 0.4;
-
-}
-
-
-
-header div{
-    color: lavenderblush;
-    padding: 10rem 2rem
-}
-header a{
-    transition: box-shadow 0.3s ease;
-}
-div{
-    padding: 2rem 3rem;
-    
-}
-div a {
-    color: aquamarine;
-    text-decoration: none;
-    justify-content: space-between;
-    box-shadow: 0 0.1rem 1rem rgba(0, 0, 0, 0.3);
-    
-    
-}
 a.nos{
     transition: box-shadow 0.3s ease;
     color: rgba(0, 0, 0, 0.808);
     font-size: xx-large;
     text-align: center;
     cursor: pointer;
+    text-decoration: none;
     
     
 }
 
-
-header h1{
-    font-size: 4rem;
-    text-align: center;
-
-
-}
-.container {
+.contenedor{
     width: 400px;
-    margin: 0 auto;
+    margin:  0 auto;
 }
 
    
@@ -93,7 +51,9 @@ section article {
     margin: 1rem 0;
     border-radius: 0.5rem;
     padding: 0.25rem 0;
-    cursor: pointer
+    cursor: pointer;
+   
+    
     
 }
 section article:hover{
@@ -103,36 +63,31 @@ section article:hover{
 section article h2, section article p{
     margin: 1rem;
 }
-footer {
+.footer {
     background-color: #222;
     padding: 3rem;
     color: #fff
 
 
 }
-footer section{
-    float: right;
+.footer section{
+    float: center;
 
 }
-footer p{
+.footer p{
     margin: 0;
 
 }
-footer a{
+.footer a{
     transition: color 0.3s ease;
     color:white;
     text-decoration: none;
 
 }
-footer a:hover{
+.footer a:hover{
     color: cornflowerblue;
 
 }
-footer p{
-    -ms-flex-align: center;
-
-}
-
 .redes-container{
     display: flex;
     align-items: center;
@@ -167,8 +122,106 @@ footer p{
 
 }
 
+body {
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+
+/*===================MENU==========================*/
+
+ #menu a, button{
+     font-size: 18px !important;
+     font-weight: 600;
+    
+ }
+
+ #menu a{
+     color:#3f3f3f;
+     
+ }
+ .header #menu a{
+     color: white;
+ }
+.intro p{
+    color: #222;
+    padding: 3rem;
+}
+
+.carousel-inner {
+    max-height:39rem !important;
+}
+.con{
+    text-decoration: none;
+    
+}
+
+
+
+
+footer {
+    background: #1b2a4e;
+    min-height: 100px;;
+}
+footer p{
+    color:#f3f3f3;
+    text-align:center;
+}
+#iconos  i {
+    font-size: 26px;
+    padding: 0 8px;
+    color:#f3f3f3;
+}
+@media (max-width:1200px){
+    #intro, #equipo {
+        width:90% !important;
+        margin:auto;
+    }
+  
+    #local {
+        flex-wrap: wrap;
+        padding-top:30px;
+   }
+   .wrapper-local {
+    width:90%;
+    margin:auto;
+    padding-top:50px;    
+   }
+ 
+}
+/*=========================MEDIA QUERIES PANTALLA SM================================*/
+
+
+@media (max-width:768px) {
+
+    #intro, #equipo{
+        width:90% !important;
+        margin:auto;
+    }
+
+    
+    #img-equipo{
+        max-height:20rem !important;
+        width:90%;
+    }
+    .wrapper-local {
+        width:90%;
+        margin:auto;
+        padding-top:50px;    
+    }
+    #local {
+        flex-wrap: wrap;
+    }
+    .mapa img {
+        width:100%;
+        height:auto;
+    }
+    #bg-contactos{
+        top: -120px;
+    }
+
+
+}
+
+
 /**/
-
-
-
-
